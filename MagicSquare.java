@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
-public class MagicSquare
+public class MagicSquare 
 {
-    public static void main (String args [])
-    {
+    public static void main (String args []) {
         System.out.print('\u000c');
         Scanner sc = new Scanner(System.in);
         System.out.print(" Ingresa un numero impar (si no te lo subire a impar):");
         int n = sc.nextInt();
         
         //subir a impar
-        if (n%2==0)
-        {
+        if (n%2==0) {
             n++;
         }
         
